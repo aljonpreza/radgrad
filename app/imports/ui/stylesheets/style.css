@@ -54,6 +54,7 @@ body {
 
 .header-body {
   padding-top: 61px; /* Move body of page below navbar. */
+  background-color: whitesmoke; /* Created by Aljon */
 }
 
 .landing-section-1 {
@@ -184,4 +185,36 @@ body {
     border-radius: 5px;
     max-height: 90%;
     overflow: scroll;
+}
+
+/** Aljon's Thematic Stylesheet */
+.topnav .item:before {
+  /* background: none !important; */
+}
+
+.menubar {
+  background-color: #1B7F61 !important;
+  border-radius: 0px;
+  margin-top: 60px;
+}
+
+.menubar .item {
+  color: rgba(255, 255, 255, 0.8) !important;
+  border-bottom-width: 3px !important;
+  /* font-weight: 700 !important; */
+
+}
+
+.ui.secondary.inverted.pointing.menu {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-color: #86CAB5;
+  color: #86CAB5 !important;
+}
+
+.ui.secondary.pointing.menu .item {
+  border-bottom-width: 3px !important;
 }
